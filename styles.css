@@ -1,0 +1,131 @@
+body{
+    background: #f5f5f5;
+    color:#4C3B4D;
+}
+#hero
+{
+    
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.flyopedia.com%2Fblog%2Fwp-content%2Fuploads%2F2016%2F08%2Fasheville.jpg&f=1&nofb=1&ipt=3372d1472eaf03adee73a0710b69dbf93baf6d337a19b680f25f7ec753da2e98&ipo=images);
+    height:210px;
+    background-size:cover;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:50px;
+    line-height: 20px;
+    color:#f5f5f5;
+    
+}
+
+#blue{
+    color:#E4DCE4;
+    text-shadow: 0px 0px 1px black;
+}
+#h1-hero
+{
+    background:#f5f5f5;
+    padding:10px 15px 10px 15px;
+    border-radius:10px;
+    color:#0b132b;
+    opacity: .9;
+}
+
+#h3-hero
+{
+    background:#f5f5f5;
+    width:350px;
+    padding:10px 15px 10px 15px;
+    border-radius:10px;
+    text-align:center;
+    color:#0b132b;
+    opacity: .9;
+
+}
+
+#top-three-section{
+    background:#E4DCE4;
+    height:300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:50px;
+    text-align: center;
+}
+
+.top-three-item
+{
+    background:#f5f5f5;
+    padding:20px;
+    width:100px;
+    height:200px;
+    border:.5px solid #B8A3B8;
+    border-radius:10px;
+    margin-bottom:30px;
+    box-shadow:4px 3px 7px #B8A3B8;
+
+}
+
+#top-three-img{
+    border-radius: 50%;
+    border:2px solid #B8A3B8;
+    width:100px;
+    height:100px;
+}
+
+
+
+#about-guide-section{
+    background:#B8A3B8;
+    height:250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:50px;
+    text-align: center;
+
+}
+#guide-card{
+    display:flex;
+    padding:30px;
+    justify-content:space-around;
+    width:300px;
+    height:150px; 
+    background:#f5f5f5;
+    color:#4C3B4D;
+    border:1px solid #4C3B4D;
+    border-radius:10px;
+}
+
+#guide-img{
+    height:250px;
+    width:250px;
+    padding-top:30px;
+}
+
+#guide-details{   
+    font-style: italic;
+    text-align:center;
+    padding-left:20px;
+    padding-top:2px;
+}
+
+#footer
+{
+    text-align:center;
+    padding: 40px 0px 40px 0px;
+}
+
+
+
+#book-link{
+    background:#FB916D;
+    color:#f5f5f5;
+    opacity: .9;
+    padding:8px 10px 8px 10px;
+    border-radius: 10px;
+    
+}
+
+#book-link:hover{
+    background:#4C3B4D;
+}
